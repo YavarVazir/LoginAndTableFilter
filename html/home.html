@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title> 
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+
+<body class="bodyStyle">
+    <div class="outer">
+        <div class="searchFilter">
+            City: <select id="city">
+                <option> All </option>
+            </select>
+            State: <select id="state">
+                <option> All </option>
+            </select>
+            Country: <select id="country">
+                <option> All </option>
+            </select>
+            <!-- <input class="searchBox" type="text" id="searchBox" placeholder="Search"> -->
+            <input type="button" value="Search" onclick="searchTable()"></input>
+        </div>
+        <div class="tableView">
+        </div>
+
+    </div>
+      <script src="../script/homepage.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.bodyStyle {
+    background-color: lightgrey;
+}
+
+.outer {
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.searchFilter {
+    text-align: center;
+    justify-content: center;
+}
+
+.searchBox {
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.tableView {
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading {
+    background-color: lightblue;
+}
+
+.body {
+    background-color: whitesmoke;
+}

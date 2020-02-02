@@ -1,0 +1,36 @@
+.body{
+  background-color: DodgerBlue;
+  align-content:center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 640px;
+    width: 1350px;
+  }
+
+  .flex-container>div {
+    background-color: #f1f1f1;
+    box-shadow: 5px 10px #888888;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+  }
+
+  .submit{
+    width: 150px;
+    border-radius: 30px;
+  }
+
+  .frame{
+    margin-left: 25%;
+    border-radius: 10px;
+    width: 200px;
+  }
+
+  .container {
+    background-color: khaki;
+  }
